@@ -11,7 +11,7 @@ app = FastAPI(title="Admission AI", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # tighten this to your frontend domain in production
+    allow_origins=["https://admission-ai-seven.vercel.app"],  # tighten this to your frontend domain in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
