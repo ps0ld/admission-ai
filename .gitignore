@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+venv/
+node_modules/
+dist/
+.env
+*.db
+backend/ml_artifacts/
+ml/datasets/*.csv
+!ml/datasets/.gitkeep
